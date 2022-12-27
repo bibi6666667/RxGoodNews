@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		00372E7C295A8D6000CCC6EA /* Article.swift in Sources */ = {isa = PBXBuildFile; fileRef = 00372E7B295A8D6000CCC6EA /* Article.swift */; };
 		003D1D8D295980C70054C619 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 003D1D8C295980C70054C619 /* AppDelegate.swift */; };
 		003D1D94295980C70054C619 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 003D1D92295980C70054C619 /* Main.storyboard */; };
 		003D1D96295980C80054C619 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 003D1D95295980C80054C619 /* Assets.xcassets */; };
@@ -16,6 +17,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00372E7B295A8D6000CCC6EA /* Article.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Article.swift; sourceTree = "<group>"; };
 		003D1D89295980C70054C619 /* GoodNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GoodNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		003D1D8C295980C70054C619 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		003D1D93295980C70054C619 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -40,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		00372E7A295A8CE700CCC6EA /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				00372E7B295A8D6000CCC6EA /* Article.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		003D1D80295980C70054C619 = {
 			isa = PBXGroup;
 			children = (
@@ -61,6 +71,7 @@
 		003D1D8B295980C70054C619 /* GoodNews */ = {
 			isa = PBXGroup;
 			children = (
+				00372E7A295A8CE700CCC6EA /* Models */,
 				003D1D8C295980C70054C619 /* AppDelegate.swift */,
 				003D1DA02959850F0054C619 /* NewsTableViewController.swift */,
 				003D1D92295980C70054C619 /* Main.storyboard */,
@@ -85,7 +96,6 @@
 				A1E6F2F265BCC3935288FC5E /* Pods-GoodNews.debug.xcconfig */,
 				9B820F74EC9C2FCD7012C916 /* Pods-GoodNews.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -206,6 +216,7 @@
 			files = (
 				003D1D8D295980C70054C619 /* AppDelegate.swift in Sources */,
 				003D1DA12959850F0054C619 /* NewsTableViewController.swift in Sources */,
+				00372E7C295A8D6000CCC6EA /* Article.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
